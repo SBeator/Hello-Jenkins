@@ -5,7 +5,9 @@ pipeline {
             steps {
                 sh 'echo "Hello World"'
                 sh '''
-                    echo "Multiline shell steps works too"
+                    cd /Users/xxzeng/Documents/mysrc/fun/draw-n-guess
+                    pwd
+                    git pull
                     ls -lah
                 '''
             }
